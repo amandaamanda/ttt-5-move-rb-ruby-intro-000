@@ -7,3 +7,4 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
 index = gets.chomp
 input_to_index(index)
+move(index)
