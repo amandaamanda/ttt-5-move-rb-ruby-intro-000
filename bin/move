@@ -7,4 +7,4 @@ print "Welcome to Tic Tac Toe!"
 index = gets.chomp
 input_to_index(index)
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-move(board,index,"X")
+move(board,input_to_index,"X")
