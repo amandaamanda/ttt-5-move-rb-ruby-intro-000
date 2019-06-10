@@ -3,8 +3,9 @@
 require_relative '../lib/move.rb'
 
 # Code your CLI Here
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 print "Welcome to Tic Tac Toe!"
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 index = gets.chomp
 input_to_index(index)
 move(board,input_to_index,"X")
